@@ -3,16 +3,17 @@
 Given a binary tree, count the number of uni-value subtrees.
 A uni-value subtree means all the nodes of the subtree have the same value
 
-**Example**
-Input: root = [5,1,5,5,5,null,5]
-Output: 4
+**Example** <br>
+Input: root = [5,1,5,5,5,null,5] <br>
+Output: 4 <br>
 Explaination: 
+```
               5
              /  \ 
             1    5
            / \  / \
           5   5 5  5
-
+```
 
 **Approach**
 - The solution involved performing a **dfs** on the tree, counting the number of uni-values subtrees.
