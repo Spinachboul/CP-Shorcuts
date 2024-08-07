@@ -27,20 +27,20 @@ class Solution{
         for(auto& nums: v){
             flattenedVector.push_back(i);
         }
+        reverse(flattenedVector.begin(), flattenedVector.end());
+    }
+    int next(){
+        int res = flattenedvector.back();
+        flattenedVector.pop_back();
+        return res;
     }
 
-    reverse(flattenedVector.begin(), flattenedVector.end());
+    bool hasNext(){
+        return !flattenedVector.empty();
+    }
+    
 
 
-}
+};
 
-int next(){
-    int res = flattenedvector.back();
-    flattenedVector.pop_back();
-    return res;
-}
-
-bool hasNext(){
-    return !flattenedVector.empty();
-}
 ```
