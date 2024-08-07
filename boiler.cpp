@@ -17,6 +17,7 @@ using namespace std;
 # define vll vector<ll>
 # define pii pair<int, int>
 # define pll pair<ll, ll>
+# define vvi vector<vi>
 # define vpii vector<pii>
 # define vpll vector<pll>
 # define all(x) x.begin(), x.end()
